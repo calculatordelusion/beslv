@@ -42,9 +42,7 @@
 <svelte:head>
 	<title>Spelling Bee Solver FAQ - NYT Spelling Bee Answers & Help</title>
 	<meta name="description" content="Get answers to common questions about NYT Spelling Bee Solver, New York Times Spelling Bee rules, pangrams, Queen Bee status, and how to solve daily puzzles with hints and answers." />
-	<script type="application/ld+json">
-		{JSON.stringify(faqSchema)}
-	</script>
+	{@html `<script type="application/ld+json">${JSON.stringify(faqSchema)}</script>`}
 </svelte:head>
 
 <div class="bg-gray-50 py-12">

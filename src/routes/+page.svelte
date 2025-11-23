@@ -62,9 +62,7 @@
 	<meta name="description" content="Spelling Bee Solver is a free NYT Spelling Bee solver for the New York Times Spelling Bee – get today's answers, spoiler-aware hints, pangrams and an archive of past puzzles, updated daily at 3:00 AM Eastern on SpellingBeeSolver.net." />
 	<meta property="og:title" content="Spelling Bee Solver – NYT & New York Times Spelling Bee Answers, Hints & Pangrams" />
 	<meta property="og:description" content="Use Spelling Bee Solver as your NYT and New York Times Spelling Bee solver for today's answers, hints, pangrams and archive." />
-	<script type="application/ld+json">
-		{JSON.stringify(homepageSchema)}
-	</script>
+	{@html `<script type="application/ld+json">${JSON.stringify(homepageSchema)}</script>`}
 </svelte:head>
 
 <div class="min-h-screen py-0">
